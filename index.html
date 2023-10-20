@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Puzzle game</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="screen">
+			<div id="title">
+				<h1>Solve the puzzle by dragging the pieces in the grid</h1>
+				<video autoplay muted loop>
+					<source src="vid.mp4" type="video/mp4">
+					There is sopoused to be a video, but your browser doesn't support it :(
+				</video>
+				<h2>Preview</h2>
+				<img alt="Puzzle preview" src="puzzle.jpg">
+				<p id="warning">This game can't be played on this device</p>
+			</div>
+			<div id="puzzle">
+				<div id="piecesBox"></div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+
+</html>
